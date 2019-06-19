@@ -26,7 +26,7 @@
             <HBox alignment="CENTER_LEFT" spacing="10.0">
                <children>
                   <Label text="Choose the language:" />
-                  <MenuButton mnemonicParsing="false" text="Language">
+                  <MenuButton fx:id="boxlingua" accessibleRole="COMBO_BOX" mnemonicParsing="false" text="Language">
                     <items>
                       <MenuItem mnemonicParsing="false" text="Italian" />
                       <MenuItem mnemonicParsing="false" text="English" />

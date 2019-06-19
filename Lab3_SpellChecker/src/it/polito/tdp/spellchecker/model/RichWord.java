@@ -5,9 +5,12 @@ public class RichWord {
 	String parola;
 	boolean corretto;
 	
+	public RichWord(String parola) {
+		this.parola = parola;
+	}
 	public RichWord(String parola, boolean corretto) {
 		this.parola = parola;
-		this.corretto = corretto;
+		this.corretto=corretto;
 	}
 	
 	public String getParola() {
